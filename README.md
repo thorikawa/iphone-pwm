@@ -1,0 +1,16 @@
+iPhone PWM omitter
+
+# Overview
+Under construction.
+
+# License
+MIT License.
+
+# Related Open source Projects
+This project uses following open source projects.
+Software sound modem: Copyright REINFORCE lab., Apache License, Version 2.0, 
+OTOduino <http://ja.otoduino.reinforce-lab.com/> : Copyright REINFORCE lab., MIT License
+
+# Contact
+Takahiro HORIKAWA <horikawa.takahiro@gmail.com>
+
