@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		A3BF0B6E1765C36B000CF966 /* libSoftwareModem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF0B691765BBEB000CF966 /* libSoftwareModem.a */; };
 		DD0236B912E171BD00867C5D /* hiz_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0236B812E171BD00867C5D /* hiz_icon.png */; };
 		DD51412B12C03B830068BD59 /* ColorBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD51412A12C03B830068BD59 /* ColorBarView.m */; };
 		DD51413112C086EA0068BD59 /* VoltageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD51413012C086EA0068BD59 /* VoltageView.m */; };
@@ -94,6 +95,30 @@
 		DDDCD4F412FEB7EC00A47D09 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = DDDCD4F312FEB7EC00A47D09 /* help.html */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A3BF0B681765BBEB000CF966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD96078813A64DF70077CE7D /* SoftwareModem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = SoftwareModem;
+		};
+		A3BF0B6A1765BBEB000CF966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD96078813A64DF70077CE7D /* SoftwareModem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD1CF8D912B5BB8200E784AE;
+			remoteInfo = TestCases;
+		};
+		A3BF0B6C1765BD6A000CF966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD96078813A64DF70077CE7D /* SoftwareModem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SoftwareModem;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* OTOduinoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTOduinoAppDelegate.h; sourceTree = "<group>"; };
@@ -173,15 +198,15 @@
 		DD51447412C5C9080068BD59 /* OTOduinoHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTOduinoHost.m; sourceTree = "<group>"; };
 		DD863B8212FFA7AD00ACB127 /* iphone_and_device.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_and_device.jpg; sourceTree = "<group>"; };
 		DD863B8412FFA7BB00ACB127 /* otoduino_schematic.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = otoduino_schematic.tiff; sourceTree = "<group>"; };
-		DD96078813A64DF70077CE7D /* SoftwareModem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SoftwareModem.xcodeproj; path = "../../OTO-plug/src/obj-c/SoftwareModem.xcodeproj"; sourceTree = "<group>"; };
+		DD96078813A64DF70077CE7D /* SoftwareModem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SoftwareModem.xcodeproj; path = ../SoftwareModem/SoftwareModem.xcodeproj; sourceTree = "<group>"; };
 		DDA4261312FAECCA005C4EAA /* bar07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar07.png; path = Images/bar07.png; sourceTree = "<group>"; };
-		DDC2900112DE986900BD4BD6 /* AudioPHY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPHY.h; path = "../../OTO-plug/src/obj-c/AudioPHY.h"; sourceTree = SOURCE_ROOT; };
-		DDC2900212DE986900BD4BD6 /* FSKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKConstants.h; path = "../../OTO-plug/src/obj-c/FSKConstants.h"; sourceTree = SOURCE_ROOT; };
-		DDC2900412DE986900BD4BD6 /* SWMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMConstants.h; path = "../../OTO-plug/src/obj-c/SWMConstants.h"; sourceTree = SOURCE_ROOT; };
-		DDC2900512DE986900BD4BD6 /* SWMPhysicalInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMPhysicalInterface.h; path = "../../OTO-plug/src/obj-c/SWMPhysicalInterface.h"; sourceTree = SOURCE_ROOT; };
-		DDC2900612DE986900BD4BD6 /* SWMPhysicalSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMPhysicalSocket.h; path = "../../OTO-plug/src/obj-c/SWMPhysicalSocket.h"; sourceTree = SOURCE_ROOT; };
-		DDC2900712DE986900BD4BD6 /* SWMSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMSocket.h; path = "../../OTO-plug/src/obj-c/SWMSocket.h"; sourceTree = SOURCE_ROOT; };
-		DDC2901A12DFD1BA00BD4BD6 /* FSKModem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKModem.h; path = "../../OTO-plug/src/obj-c/FSKModem.h"; sourceTree = SOURCE_ROOT; };
+		DDC2900112DE986900BD4BD6 /* AudioPHY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPHY.h; path = ../SoftwareModem/AudioPHY.h; sourceTree = SOURCE_ROOT; };
+		DDC2900212DE986900BD4BD6 /* FSKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKConstants.h; path = ../SoftwareModem/FSKConstants.h; sourceTree = SOURCE_ROOT; };
+		DDC2900412DE986900BD4BD6 /* SWMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMConstants.h; path = ../SoftwareModem/SWMConstants.h; sourceTree = SOURCE_ROOT; };
+		DDC2900512DE986900BD4BD6 /* SWMPhysicalInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMPhysicalInterface.h; path = ../SoftwareModem/SWMPhysicalInterface.h; sourceTree = SOURCE_ROOT; };
+		DDC2900612DE986900BD4BD6 /* SWMPhysicalSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMPhysicalSocket.h; path = ../SoftwareModem/SWMPhysicalSocket.h; sourceTree = SOURCE_ROOT; };
+		DDC2900712DE986900BD4BD6 /* SWMSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMSocket.h; path = ../SoftwareModem/SWMSocket.h; sourceTree = SOURCE_ROOT; };
+		DDC2901A12DFD1BA00BD4BD6 /* FSKModem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSKModem.h; path = ../SoftwareModem/FSKModem.h; sourceTree = SOURCE_ROOT; };
 		DDCE624E12F579CF00633AA7 /* AnalogPinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalogPinModel.h; sourceTree = "<group>"; };
 		DDCE624F12F579CF00633AA7 /* AnalogPinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalogPinModel.m; sourceTree = "<group>"; };
 		DDCE625112F57AA200633AA7 /* DigitalPinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalPinModel.h; sourceTree = "<group>"; };
@@ -217,6 +242,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BF0B6E1765C36B000CF966 /* libSoftwareModem.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -300,6 +326,15 @@
 				DD51418212C0B3D20068BD59 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3BF0B641765BBEB000CF966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF0B691765BBEB000CF966 /* libSoftwareModem.a */,
+				A3BF0B6B1765BBEB000CF966 /* TestCases.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		DD51411D12C03AA20068BD59 /* Images */ = {
@@ -429,11 +464,6 @@
 			name = OTOduinoHost;
 			sourceTree = "<group>";
 		};
-		DD96078913A64DF70077CE7D /* Products */ = {
-			isa = PBXGroup;
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -448,6 +478,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A3BF0B6D1765BD6A000CF966 /* PBXTargetDependency */,
 			);
 			name = OTOduino;
 			productName = OTOduino;
@@ -477,7 +508,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = DD96078913A64DF70077CE7D /* Products */;
+					ProductGroup = A3BF0B641765BBEB000CF966 /* Products */;
 					ProjectRef = DD96078813A64DF70077CE7D /* SoftwareModem.xcodeproj */;
 				},
 			);
@@ -487,6 +518,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A3BF0B691765BBEB000CF966 /* libSoftwareModem.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSoftwareModem.a;
+			remoteRef = A3BF0B681765BBEB000CF966 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3BF0B6B1765BBEB000CF966 /* TestCases.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestCases.app;
+			remoteRef = A3BF0B6A1765BBEB000CF966 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -587,6 +635,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3BF0B6D1765BD6A000CF966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoftwareModem;
+			targetProxy = A3BF0B6C1765BD6A000CF966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DDDCD4F312FEB7EC00A47D09 /* help.html */ = {

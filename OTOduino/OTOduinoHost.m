@@ -101,9 +101,10 @@
 {
 	OTOduinoConnectionErrorType err = NoError;
 	// check packet
-	if( ! socket_.modem.packetReceived ) {
-		err = SoftwarePLLUnLock;
-	}
+  // XXX: commented out because it results build error.
+	//if( ! socket_.modem.packetReceived ) {
+	//	err = SoftwarePLLUnLock;
+	//}
 	// check volume
 	if( socket_.audioPHY.outputVolume < 1.0 ) {
 		err = InSufficientVolume;
